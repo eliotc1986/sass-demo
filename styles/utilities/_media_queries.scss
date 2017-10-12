@@ -1,0 +1,16 @@
+// ============================
+// MEDIA QUERIES
+// ============================
+// Source: https://davidwalsh.name/write-media-queries-sass
+
+@mixin breakpoint-tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin breakpoint-desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

@@ -1,0 +1,46 @@
+// ============================
+// RESETS
+// ============================
+@import 'vendor/normalize';
+@import 'vendor/reset';
+
+// ============================
+// IMPORTS
+// ============================
+@import 'utilities/all';
+@import 'base/all';
+
+// ============================
+// COMPONENTS
+// ============================
+
+// HEADER
+.site-header {
+  border-bottom: 1px solid $light-gray;
+}
+
+.main-logo {
+  margin-bottom: 0;
+}
+
+.main-logo--link {
+  color: $white;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+// ARTICLE
+.article-entry {
+  background-color: $white;
+}
+
+.article-entry--header {
+  background-color: $secondary-color;
+  padding: 2em 0;
+
+
+  @include breakpoint-tablet {
+    padding: 2em 0 3em;
+  }
+}

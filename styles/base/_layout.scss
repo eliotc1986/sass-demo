@@ -1,0 +1,11 @@
+// ============================
+// LAYOUTS
+// ============================
+.container {
+  @extend %align-center;
+  max-width: $global-max-width;
+}
+
+.section {
+  padding: 1rem;
+}
